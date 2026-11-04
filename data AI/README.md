@@ -39,42 +39,8 @@ Training requires at least five rows, at least one feature, and a target with tw
 
 ---
 
-## 🚀 Quick Start & Installation
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/hmvinay-tech/DataPulse-AI.git
-cd DataPulse-AI
-```
 
-### 2. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the Streamlit Application
-```bash
-streamlit run app.py
-```
-Open your browser at `http://localhost:8501`.
-
-## ☁️ Deploy on Streamlit Community Cloud
-
-1. Push this project to a GitHub repository. Include `app.py`, `modeling.py`, `requirements.txt`, and `.streamlit/config.toml`.
-2. Sign in to [Streamlit Community Cloud](https://share.streamlit.io/) with GitHub and choose **Create app**.
-3. Select your repository, branch, and `app.py` as the main file, then deploy.
-4. Wait for dependency installation and the app health check. The public app URL will be shown in the Streamlit dashboard.
-
-The repository does not need secrets for the current features. Uploaded CSVs and trained models live only in the running app session; the app does not provide permanent storage, user accounts, or a database. The 50 MB upload cap and row/column caps are also enforced by the application. For larger workloads or private datasets, deploy behind an authenticated service and add durable storage before sharing publicly.
-
-## 🧪 Development Checks
-
-```bash
-python -m pytest -q
-python -m streamlit run app.py
-```
-
----
 
 ## 🛠️ Tech Stack & Libraries
 
